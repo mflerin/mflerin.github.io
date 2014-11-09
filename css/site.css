@@ -1,0 +1,132 @@
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #f2f2f2;
+}
+/* Style for our header texts
+ * --------------------------------------- */
+h1 {
+  font-size: 5em;
+  font-family: arial,helvetica;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+/* Centered texts in each section
+  * --------------------------------------- */
+.section {
+  text-align: center;
+}
+/* Backgrounds will cover all the section
+  * --------------------------------------- */
+#section1,
+#section2,
+#section3 {
+  background-size: cover;
+}
+/* Defining each section background and styles
+  * --------------------------------------- */
+#section1 {
+  background-image: url(../images/bg1.jpg);
+  padding: 6% 0 0 0;
+}
+#section1 .intro {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 30px;
+}
+#section1 h1,
+#section1 p {
+  text-shadow: 1px 5px 20px #000;
+}
+#section2 {
+  background-image: url(../images/bg2.jpg);
+  padding: 6% 0 0 0;
+}
+#section2 .intro {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 30px;
+}
+#section2 h1,
+#section2 p {
+  text-shadow: 1px 5px 20px #000;
+}
+#section3 {
+  background-image: url(../images/bg3.jpg);
+  padding: 6% 0 0 0;
+  margin: 0 auto;
+}
+#section3 h1 {
+  color: #000;
+}
+#section3 h1,
+#section3 p {
+  text-shadow: 1px 5px 20px #000;
+  color: #fff;
+}
+/* Section 4
+	 * --------------------------------------- */
+#section4 {
+  background-color: #3399cc;
+}
+#section4 p {
+  opacity: 0.6;
+}
+#infoMenu li a {
+  color: #fff;
+}
+/* Menu
+  * --------------------------------------- */
+#menu li {
+  display: inline-block;
+  margin: 10px;
+  margin-top: 0px;
+  color: #000;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  float: right;
+}
+#menu li.active {
+  background: #666;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+#menu li a {
+  text-decoration: none;
+  color: #000;
+}
+#menu li.active a:hover {
+  color: #000;
+}
+#menu li:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+#menu li a,
+#menu li.active a {
+  padding: 9px 18px;
+  display: block;
+}
+#menu li.active a {
+  color: #fff;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  z-index: 70;
+  padding: 5;
+  margin: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+nav h1 {
+  float: left;
+  font-size: 3em;
+}
