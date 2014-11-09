@@ -79,6 +79,24 @@ h1 {
 #section4 p {
   opacity: 0.6;
 }
+/* Section 5
+   * --------------------------------------- */
+#section5 {
+  background-color: #e7e8ec;
+}
+#section5 p,
+#section5 h1 {
+  color: #000;
+}
+#section5 p {
+  font-size: large;
+}
+#section5 h1 {
+  margin-top: 20px;
+}
+#section5 img {
+  width: 30%;
+}
 #infoMenu li a {
   color: #fff;
 }
