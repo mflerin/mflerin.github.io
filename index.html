@@ -9,6 +9,12 @@
   <meta name="keywords"  content="sotware, timber and damp, woodworm, wall ties, remedial building services, building preservations" />
   <meta name="Resource-type" content="Document" />
 
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css"> -->
+
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400,700" />
   <link rel="stylesheet" type="text/css" href="bower_components/pagepiling.js/jquery.pagepiling.css" />
   <link rel="stylesheet" type="text/css" href="css/site.css" />
@@ -19,7 +25,7 @@
   <nav>
    <h2><i class="icon-surveyhub"></i>urveyhub</h2> 
    <ul id="menu">
-    <li><a href="http://dev.codeworks.systems">Sign in</a></li>
+    <li><a href="http://dev.codeworks.systems" class="navbar-right">Sign in</a></li>
   </ul>
 </nav>
 
@@ -30,11 +36,20 @@
       <p>Powerful and simple cloud based software to manage customers, estate agents, leads and surveys</p>
       <p>Specifically tailored to timber and damp companies</p>
       <p>in the building preservation industry</p>
-      <form action="http://forms.brace.io/marc@flerin.com" method="POST">
-        <input type="text" name="name">
-        <input type="email" name="_replyto">
-        <input type="submit" value="Send">
+      <form class="form-inline" role="form" action="http://forms.brace.io/marc@flerin.com" method="POST">
+        <div class="form-group">
+          <label class="sr-only" for="exampleInputPassword2">Password</label>
+          <input type="text" required class="form-control" id="name" placeholder="name">
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="email">Email address</label>
+          <input type="email" required class="form-control" id="email" placeholder="email">
+        </div>
+        <button type="submit" class="btn btn-default btn-success">Register Your Interest</button>
       </form>
+      <br/>
+      <a <li data-menuanchor="page2" href="#page2" class="btn-lg btn-default btn-warning">Learn More</a>
+
     </div>
   </div>
   <div class="section" id="section2">
